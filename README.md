@@ -3,10 +3,10 @@
 
 ## How to install
 
--  <code> git clone https://github.com/azer1ghost/coffee </code>
--  <code> composer install </code>
-
+- Run <code> git clone https://github.com/azer1ghost/coffee </code>
+- Run <code> composer install </code>
 - After installation progress create new empty database.
+- Run <code> cp .env.example .env </code>
 - Go to .env file enter your setup ( database-name, database-username, database-pass )
 - Run <code> php artisan key:generate </code>
 - Run <code> php artisan migrate:refresh --seed </code>
